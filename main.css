@@ -1,0 +1,158 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Chivo', sans-serif !important;
+
+}
+
+header {
+  display: flex;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+  
+
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 2rem;
+}
+
+header img {
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 50%;
+}
+
+header h1 {
+
+  font-size: 1.25rem;
+  color: #555;
+  margin: auto 0;
+  
+}
+
+header h2 {
+  font-size: .875rem;
+  text-transform: uppercase;
+  color: #777;
+  letter-spacing: .1rem;
+}
+
+
+footer {
+  background: url('http://i.imgur.com/f4jGhSF.png') repeat center;
+ display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 8rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+
+  font-size: .875rem;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+
+strong {
+  font-weight: 700;
+}
+
+
+.header_img{
+  width: 5rem;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.section_header{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 45rem;
+}
+.section_header h1{
+  font-size: 4.6rem;
+  text-align: center;
+
+  font-weight: 600;
+ 
+}
+.section_header h2{
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-weight: 600;
+ 
+}
+.invest__item:nth-child(1) {
+    background: url(https://mustafadalga.github.io/farm-landing-page/assets/img/investments/invest-1.png) no-repeat center / cover;
+}
+.invest__item {
+    padding: 2.5rem;
+}
+.invest__body {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+    grid-gap: 2.5rem;
+}
+
+.invest__item__body {
+    margin: 5rem 0 2.5rem;
+}
+.invest__item__title {
+    color: #ffffff;
+    font-size: 3.1rem;
+    max-width: 30rem;
+}
+
+.invest__item_description {
+    font-size: 1.6rem;
+    color: #ffffff;
+    max-width: 30rem;
+}
+.btn__invest {
+    color: #66BB6A;
+    display: inline-block;
+    width: 20rem;
+    text-align: center;
+    box-shadow: 1px 10px 30px -10px #66bb6a;
+    display: inline-block;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
